@@ -4,7 +4,9 @@ for (let i = 1; i <= 2; i++) {
     arr.push(i)
 }
 
-arr.forEach(element => {
+rev = arr.reverse()
+
+rev.forEach(element => {
 
     $.get("./posts/" + element + ".md", function(cont) {
         if (cont) {
