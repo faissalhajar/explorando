@@ -13,7 +13,7 @@ rev.forEach(element => {
             let line2 = cont.split('\n')[1];
             let nTitle = line2.replace("#", "").trim()
             document.getElementById("screen").innerHTML +=
-                `<div class="linkBox"><a class="links" href="view.html?p=${element}.md">${nTitle}</a></div>`
+                `<a class="links" href="view.html?p=${element}.md"><div class="linkBox">${nTitle}</div></a>`
         }
     });
 });
