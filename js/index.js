@@ -1,12 +1,12 @@
 $.ajax({
-    url: './posts',
+    url: 'https://explorando.now.sh/posts',
     method: 'GET',
     dataType: 'json'
 }).done(function(data) {
     arr = data.reverse()
     arr.forEach(element => {
         $.ajax({
-            url: './posts/' + element,
+            url: 'https://explorando.now.sh/posts/' + element,
             method: 'GET',
         }).done(function(cont) {
             let line1 = cont.split('\n')[0];
