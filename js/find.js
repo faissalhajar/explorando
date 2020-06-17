@@ -1,0 +1,1 @@
+window.location.replace(window.location.protocol + "//" + window.location.host + "/view.html?p=" + (window.location.pathname).substring(1))
