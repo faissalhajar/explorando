@@ -46,7 +46,8 @@ body {
 }
 
 .links {
-    text-align: center;
+    text-align: left;
+    margin: 0 auto;
     font-size: 20px;
 }
 
