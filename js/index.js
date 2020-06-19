@@ -8,7 +8,7 @@ rev = arr.reverse()
 
 rev.forEach(element => {
 
-    $.get("./posts/" + element, function(cont) {
+    $.get("./posts/" + element + ".md", function(cont) {
         if (cont) {
             let line2 = cont.split('\n')[1];
             let nTitle = line2.replace("#", "").trim()
