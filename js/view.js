@@ -4,7 +4,7 @@ function getURLParameter(name) {
 
 let post = getURLParameter('p');
 
-$.get("./posts/" + post, function(response) {
+$.get("./posts/" + post + ".md", function(response) {
     let converter = new showdown.Converter({ tables: true, strikethrough: true });
     let text = response
     let html = converter.makeHtml(text);
