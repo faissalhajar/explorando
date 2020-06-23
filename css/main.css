@@ -50,6 +50,11 @@ body {
     font-weight: bold;
 }
 
+.white {
+    color: white;
+    font-weight: bold;
+}
+
 #screen {
     display: flex;
     flex-direction: column;
@@ -57,7 +62,7 @@ body {
 
 .linkBox {
     background-color: rgb(16, 15, 26);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     margin: 10px auto;
     max-width: 400px;
