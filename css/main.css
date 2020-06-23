@@ -55,6 +55,12 @@ body {
     font-weight: bold;
 }
 
+.date {
+    color: rgb(70, 68, 87);
+    font-size: 13px;
+    text-align: right;
+}
+
 #screen {
     display: flex;
     flex-direction: column;
