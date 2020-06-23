@@ -15,7 +15,7 @@ rev.forEach(element => {
             let nTitle = line2.replace("#", "").trim()
             let first2 = `<span class="white">${nTitle.substring(0,5)}</span>` + nTitle.substring(5) + ` <br> <div class="date">${date}</div>`
             document.getElementById("screen").innerHTML +=
-                `<a class="links" href="/p/${element}.html"><div class="linkBox">${first2}</div></a>`
+                `<a class="links" href="./p/${element}.html"><div class="linkBox">${first2}</div></a>`
         }
     });
 });
