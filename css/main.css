@@ -27,6 +27,7 @@ body {
     width: 100vw;
     top: 0;
     box-shadow: 0px 10px 18px #00000077;
+    z-index: 999;
 }
 
 .page {
@@ -42,12 +43,54 @@ body {
     margin: 10px auto
 }
 
+.hero {
+    /* position: fixed; */
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+    display: flex;
+    filter: blur(20px);
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    margin: -5px -10px -10px -5px;
+}
+
+.herot {
+    position: absolute;
+    /* top: 30%; */
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: rgba(0, 0, 0, 0.705) 0px 5px 10px;
+    line-height: 35px;
+}
+
+#herospot {
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .topTitle {
     font-size: 30px;
     text-align: center;
     padding-top: 100px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+}
+
+.cov {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .white {
