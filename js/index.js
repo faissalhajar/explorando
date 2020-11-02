@@ -1,11 +1,11 @@
 arr = []
 
-for (let i = 1; i <= 2; i++) {
+for (let i = 2; i >= 1; i--) {
     arr.push(i)
 }
+// rev = arr.reverse()
 
-rev = arr.reverse()
-rev.forEach(element => {
+arr.forEach(element => {
     $.get("./posts/" + element + ".md", function(cont) {
         if (cont) {
             let line2 = cont.split('\n')[1];
