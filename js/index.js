@@ -1,6 +1,6 @@
 arr = []
 
-for (let i = 2; i >= 1; i--) {
+for (let i = 3; i >= 1; i--) {
     arr.push(i)
 }
 // rev = arr.reverse()
